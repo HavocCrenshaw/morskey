@@ -1,2 +1,7 @@
 # morskey
-A simple program that captures your keyboard and translates straight key input into characters for programs to react to!
+describe the program and the features in a paragraph or two
+clarify there will be no contributions to it and issues will be handled on a random basis
+user instructions (setup)
+dev instructions (building and such)
+known issues
+contact
