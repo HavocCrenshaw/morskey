@@ -1,13 +1,13 @@
 # morskey
 `morskey` is an recreational application intended to allow the user to make \
-straight-key morse code inputs which are then translated into character outputs \
-for applications, like a browser, Discord or other chat clients, and even games \
-if you're interested in that!
+straight-key morse code inputs with their keyboard, which are then translated \
+into character outputs for applications, like a browser, Discord or other chat \
+clients, and even games if you're interested in that!
 
 This project is done for fun by it's creator, and will not be "professionally" \
-maintained, although there will be effort towards keeping the app bug-free, and \
+maintained, although there will be effort towards keeping the app bug free, and \
 stable. This project will also not accept external contributions to it's \
-codebase, so please, no pull-requests. You may create issues which will be \
+codebase, so please, no pull requests. You may create issues which will be \
 addressed in an unknown time basis.
 
 Only for Windows, with Linux a priority for after reaching a "finished" state on \
