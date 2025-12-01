@@ -11,10 +11,11 @@ TARGET_EXEC := morskey
 all: clean debug release
 
 debug: $(SRCS)
-	$(CC) $(CFLAGS) -g $(SRCS) -o $(DEBUG_BIN_DIR)/$(TARGET_EXEC)
+	$(CC) -g $(CFLAGS) $(SRCS) -o $(DEBUG_BIN_DIR)/$(TARGET_EXEC) $(LDFLAGS)
 
 release: $(SRCS)
-	$(CC) -O3 $(CFLAGS) $(SRCS) -o $(NDEBUG_BIN_DIR)/$(TARGET_EXEC)
+	$(CC) -O3 $(CFLAGS) $(SRCS) -o $(NDEBUG_BIN_DIR)/$(TARGET_EXEC) \
+        $(LDFLAGS)
 
 clean:
 	rm -rf $(DEBUG_BIN_DIR)/* $(NDEBUG_BIN_DIR)/*

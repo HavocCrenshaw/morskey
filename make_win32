@@ -11,7 +11,7 @@ TARGET_EXEC := morskey.exe
 all: clean debug release
 
 debug: $(SRCS)
-	$(CC) $(CFLAGS) -g $(SRCS) -o $(DEBUG_BIN_DIR)/$(TARGET_EXEC) \
+	$(CC) -g $(CFLAGS) $(SRCS) -o $(DEBUG_BIN_DIR)/$(TARGET_EXEC) \
 	$(TARGET_OPTIONS)
 
 release: $(SRCS)
