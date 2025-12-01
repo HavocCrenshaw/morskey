@@ -1,5 +1,5 @@
 # morskey
-`morskey` is an recreational application intended to allow the user to make
+`morskey` is an recreational application intended to allow the user to make\
 straight-key morse code inputs with their keyboard, which are then translated\
 into character outputs for applications, like a browser, Discord or other chat\
 clients, and even games if you're interested in that!
@@ -18,7 +18,8 @@ Feel free to clone and modify this project as you wish, following the terms of\
 the License of course.
 
 ### Building
-1. Dependencies\
+1. Dependencies
+
 First, you will need to install the dependencies. The common dependencies are\
 GCC, Make, and Python 3.
 
@@ -28,6 +29,7 @@ tros) libx11-dev and libx11-doc packages.
 For Windows, you will need the Windows 10/11 SDK.
 
 2. Building
+
 You must first run the `mk_bin_dirs.py` to prepare the directories for the bi-\
 naries. You can use the build.py utility to easily build the app.
 
