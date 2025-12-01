@@ -10,8 +10,8 @@ try:
 except FileExistsError:
     print("Debug directory already exists.")
 except Exception as e:
-    printf(f"An unexpected exception occured creating the Debug directory.\n"
-           f"{e}")
+    print(f"An unexpected exception occured creating the Debug directory.\n"
+          f"{e}")
 else:
     debug_success = True
 
@@ -20,8 +20,8 @@ try:
 except FileExistsError:
     print("Release directory already exists.")
 except Exception as e:
-    printf(f"An unexpected exception occured creating the Release directory.\n"
-           f"{e}")
+    print(f"An unexpected exception occured creating the Release directory.\n"
+          f"{e}")
 else:
     ndebug_success = True
 
