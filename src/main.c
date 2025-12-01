@@ -29,12 +29,16 @@
 
 
 
+#ifdef _WIN64
+
 #define WIN32_LEAN_AND_MEAN
 #define NOMINMAX // Kind of just turning this off for convention.
 
 // Target Windows 10+
 #define WINVER       0x0A00
 #define _WIN32_WINNT 0x0A00
+
+#endif // _WIN64
 
 
 
@@ -46,7 +50,17 @@
 
 
 
+#ifdef _WIN64
+
 #include <windows.h>
+
+#endif // _WIN64
+
+#ifdef __linux__
+
+#include <X11/Xlib.h>
+
+#endif // __linux__
 
 
 
@@ -57,6 +71,8 @@
 /* ===== Function Definitions =============================================== */
 
 
+
+#ifdef _WIN64
 
 int WINAPI wWinMain( _In_ HINSTANCE app_instance_handle,
                      _In_opt_ HINSTANCE prev_app_instance_handle,
@@ -71,6 +87,16 @@ int WINAPI wWinMain( _In_ HINSTANCE app_instance_handle,
         return 0;
 
 }
+
+#endif // _WIN64
+
+#ifdef __linux__
+
+int main() {
+        return 0;
+}
+
+#endif // __linux__
 
 
 

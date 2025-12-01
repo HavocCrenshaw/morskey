@@ -1,0 +1,21 @@
+CC := gcc
+CFLAGS := -std=c99 -Wall -Wextra -Werror -pedantic -pedantic-errors
+SRCS := src/main.c
+
+BIN_DIR := bin
+DEBUG_BIN_DIR := $(BIN_DIR)/Debug
+NDEBUG_BIN_DIR := $(BIN_DIR)/Release
+TARGET_EXEC := morskey
+
+all: clean debug release
+
+debug: $(SRCS)
+	$(CC) $(CFLAGS) $(SRCS) -o $(DEBUG_BIN_DIR)/$(TARGET_EXEC) \
+	$(TARGET_OPTIONS)
+
+release: $(SRCS)
+	$(CC) -O3 $(CFLAGS) $(SRCS) -o $(NDEBUG_BIN_DIR)/$(TARGET_EXEC) \
+	$(TARGET_OPTIONS)
+
+clean:
+	rm -rf "$(DEBUG_BIN_DIR)" "$(NDEBUG_BIN_DIR)"
