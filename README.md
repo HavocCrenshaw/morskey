@@ -33,10 +33,10 @@ This project will not be accepting pull requests at this time. They will be
 denied indiscriminatorily. You can open issues, which will be dealt with ASAP.
 
 ## Schedule
-Start Date: December 6th, 2025
-Deadline: January 5th, 2026
-Planning: 1 week
-Coding: 1 week
+Start Date: December 6th, 2025<br>
+Deadline: January 5th, 2026<br>
+Planning: 1 week<br>
+Coding: 1 week<br>
 Testing: 2 weeks
 
 This sounds like a mild violation of The Mythical Man Month but I will gladly be
