@@ -48,5 +48,5 @@ corners to stick to it, to maintain my learning integrity.
 N/A at this time.
 
 ## Contact
-E-Mail: `havoccrenshaw@gmail.com` for formal inquiries.
+E-Mail: `havoccrenshaw@gmail.com` for formal inquiries.<br>
 Discord: `havoccrenshaw` for informal contact.
