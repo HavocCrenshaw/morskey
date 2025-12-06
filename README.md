@@ -1,45 +1,52 @@
 # morskey
-`morskey` is an recreational application intended to allow the user to make\
-straight-key morse code inputs with their keyboard, which are then translated\
-into character outputs for applications, like a browser, Discord or other chat\
-clients, and even games if you're interested in that!
+`morskey` is a recreational app that captures the user's keyboard and translates<br>
+straight-key morse code input on a key of the user's choosing to inputs for<br>
+other applications like Discord, a browser, or even games.
 
-This project is done for fun by it's creator, and will not be "professionally"\
-maintained, although there will be effort towards keeping the app bug free, and\
-stable. This project will also not accept external contributions to it's code\
-base, so please, no pull requests. You may create issues which will be addressed\
-in an unknown time basis.
+## User Guide
+At this time, there are no official releases. You may build the app following<br>
+the instructions in the **Developer Guide** section.
 
-## User Instructions
-This section will be filled out upon the project reaching a "finished" state.
+Read docs/user-manual.md for a clear specification of the apps features.
 
-## Developer Instructions
-Feel free to clone and modify this project as you wish, following the terms of\
-the License of course.
+## Developer Guide
+Feel free to fork and modify this project as you wish, following the terms of<br>
+the License.
+
+### Dependencies
+First, you will need to install the dependencies. The common dependencies are<br>
+GCC, Make.
+
+On Windows, you will need the Windows 10/11 SDK.
+
+On Linux, you will need the X11 development packages, on Debian distributions<br>
+which is what this program was built/tested on, that is `libx11-dev`.
 
 ### Building
-1. Dependencies
+Building is simple, invoke make. The `Makefile` has a few targets, `debug`,<br>
+`release`, `clean`, and `all` (which runs clean, debug, release in that order.)<br>
+The Makefile will automatically detect which Operating System you are building<br>
+for.
 
-First, you will need to install the dependencies. The common dependencies are\
-GCC, Make, and Python 3.
+### Contribution
+This project will not be accepting pull requests at this time. They will be<br>
+denied indiscriminatorily. You can open issues, which will be dealt with ASAP.
 
-For Linux, you will need to install the (debian, may be different on other dis-\
-tros) libx11-dev and libx11-doc packages. 
+## Schedule
+Start Date: December 6th, 2025<br>
+Deadline: January 5th, 2026<br>
+Planning: 1 week<br>
+Coding: 1 week<br>
+Testing: 2 weeks
 
-For Windows, you will need the Windows 10/11 SDK.
-
-2. Building
-
-You must first run the `mk_bin_dirs.py` to prepare the directories for the bi-\
-naries. You can use the build.py utility to easily build the app.
-
-If there is any issue, you can try modifiying the `make_win32` or `make_x11` fi-\
-les to account for anything specific to your dev environment.
+This sounds like a mild violation of The Mythical Man Month but I will gladly be<br>
+proven wrong here. Deadline is not absolute, since I am learning, but I think<br>
+it's reasonable and I will try my best to stick to it, even if I have to cut<br>
+corners to stick to it, to maintain my learning integrity.
 
 ## Known Issues
-This project is currently under development and this will not be filled out un-\
-til the project is at a "finished" state.
+N/A at this time.
 
 ## Contact
-E-Mail: `havoccrenshaw@gmail.com` (Formal contact)\
-Discord: `havoccrenshaw` (Informal contact)
+E-Mail: `havoccrenshaw@gmail.com` for formal inquiries.
+Discord: `havoccrenshaw` for informal contact.
